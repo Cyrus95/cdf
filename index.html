@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>Hello, world!</title>
+
+    <style type="text/css">
+    	.grid_demo {
+    		width: 100%;
+    		min-height: 4rem;
+    		background-color: #ccc;
+    		margin-bottom: 1rem;
+    		text-align: center;
+    		line-height: 4rem;
+    	}
+    </style>
+</head>
+
+<!-- <body data-container-width="1400"> -->
+<body >
+	<nav class="nav">
+		<div class="container">
+			<div class="row">
+				<div class="column">
+					<a href="index.html" class="brand">
+						<span>CD Framework</span>
+					</a>
+			        <input id="bmenu" type="checkbox" class="show">
+			        <label for="bmenu" class="burger toggle pseudo button">menu</label>
+			        <div class="menu menu-horizontal mobile">
+			        	<ul class="menu-list">
+						    <li><a>Link 1</a></li>
+						    <li><a>Link 2</a></li>
+						    <li>
+							      <a class="active">Link -3</a>
+							      <ul>
+							        <li><a>sub link 1</a></li>
+							        <li><a>sub link 2</a></li>
+							        <li><a>sub link 3</a></li>
+							      </ul>
+							    </li>
+					  	</ul>
+			        </div>
+				</div>
+			</div>
+		</div>
+		
+    </nav>
+	<div class="container" style="margin: 4rem auto 2rem auto">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="column column-20 column-mid-40">
+				<aside class="menu ">
+				  <p class="menu-label">
+				    Title
+				  </p>
+				  <ul class="menu-list">
+				    <li><a>Link 1</a></li>
+				    <li><a>Link 2</a></li>
+				  </ul>
+				  <p class="menu-label">
+				    Title 2
+				  </p>
+				  <ul class="menu-list">
+				    
+				    <li>
+				      <a class="active">Link 3</a>
+				      <ul>
+				        <li><a>sub link 1</a></li>
+				        <li><a>sub link 2</a></li>
+				        <li><a>sub link 3</a></li>
+				      </ul>
+				    </li>
+				    <li><a>Link -4</a></li>
+				    <li><a>Link -5</a></li>
+				    <li><a>Link -6</a></li>
+				  </ul>
+				  <p class="menu-label">
+				    Title 3
+				  </p>
+				  <ul class="menu-list">
+				    <li><a>Link -7</a></li>
+				    <li><a>Link -8</a></li>
+				    <li><a>Link -9</a></li>
+				  </ul>
+				</aside>
+			</div>
+			<div class="column column-80 column-mid-60">
+				<div class="container">
+        			
+			        <div class="row row-wrap">
+			            <div class="column">
+			                <h1>Heading 1</h1>
+			                <h2>Heading 2</h2>
+			                <h3>Heading 3</h3>
+			                <h4>Heading 4</h4>
+			                <h5>Heading 5</h5>
+			                <h6>Heading 6</h6>
+			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			                <p><a>Anchor</a></p>
+							<p><em>Emphasis</em></p>
+							<p><small>Small</small></p>
+							<p><strong>Strong</strong></p>
+							<p><u>Underline</u></p>
+
+
+			                
+			                <div class="row">
+			                	<div class="column">
+			                		<ol>
+									  <li>Ordered list item 1</li>
+									  <li>Ordered list item 2</li>
+									</ol>
+			                	</div>
+			                	<div class="column">
+			                		<ul>
+									  <li>Unordered list item 1</li>
+									  <li>Unordered list item 2</li>
+									</ul>
+			                	</div>
+			                	<div class="column">
+			                		<dl>
+									  <dt>Description list item 1</dt>
+									  <dd>Description list item 1.1</dd>
+									</dl>
+			                	</div>
+			                </div>	
+			            </div>
+			        </div>
+
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Simple form</h2>
+				<div class="row row-wrap">
+					<div class="column column-50">
+			                <input placeholder="Full name">
+			            </div>
+			            <div class="column column-50">
+			                <input type="tel" placeholder="Telephone">
+			            </div>
+			            <div class="column column-50">
+			                <input type="email" placeholder="Email">
+			            </div>
+			            <div class="column column-50">
+			                <input type="password" placeholder="Password">
+			            </div>
+			            <div class="column column-100">
+			                <select class="select">
+			                    <option>Select an option</option>
+			                    <option>Good option</option>
+			                    <option>Nice option</option>
+			                    <option>Cheap option</option>
+			                </select>
+			            </div>
+			            <div class="column column-50">
+			            	<p>
+							  <label>
+							    <input type="radio" name="radiodemo">
+							    <span class="checkable">Select me</span>
+							  </label>
+							
+							  <label>
+							    <input checked type="radio" name="radiodemo">
+							    <span class="checkable">Select me</span>
+							  </label>
+							</p>
+
+			            </div>
+			             <div class="column column-50">
+			            	<p>
+							  	<label>
+									<input type="checkbox">
+									<span class="checkable">Check me out (;</span>
+								</label>
+							  	<label>
+									<input type="checkbox" checked>
+									<span class="checkable">Check me out (;</span>
+								</label>
+							</p>
+
+			            </div>		
+				</div>			      
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Buttons</h2>
+				<div class="row row-wrap">
+					<div class="column column-33">
+						<a class="button" href="#">Default Button</a>
+					</div>
+					<div class="column column-33">
+						<button class="button button-outline">Outlined Button</button>
+					</div>
+					<div class="column column-33">
+						<button class="button button-clear" type="submit" >Clear Button </button>
+					</div>
+					<div class="column column-33">
+						<button class="button button-gradient" type="submit" >Gradient Button</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Table</h2>
+				<div class="row row-wrap">
+					<div class="column column-50">
+						<table>
+						  <thead>
+						    <tr>
+						      <th>Name</th>
+						      <th>Age</th>
+						      
+						      <th>Location</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <td>Sunil Rana</td>
+						      <td>24</td>
+						      
+						      <td>Vadodara</td>
+						    </tr>
+						    <tr>
+						      <td>Jhon Doe</td>
+						      <td>25</td>
+						      
+						      <td>Surat</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+					
+				
+				
+					<div class="column column-50">
+						<table class="table-striped">
+						  <thead>
+						    <tr>
+						      <th>Name</th>
+						      <th>Age</th>
+						      
+						      <th>Location</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <td>Sunil Rana</td>
+						      <td>24</td>
+						      
+						      <td>Vadodara</td>
+						    </tr>
+						    <tr>
+						      <td>Jhon Doe</td>
+						      <td>25</td>
+						      
+						      <td>Surat</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="column column-50">
+				<br>
+				<h2>BlockQuote</h2>
+				<div class="row row-wrap">
+					<div class="column ">
+						<blockquote>
+						  <p><em>CD framework is going live soon</em></p>
+						</blockquote>
+					</div>
+					
+				</div>
+			</div>
+		
+			<div class="column column-50">
+				<br>
+				<h2>Modal</h2>
+				<div class="row row-wrap">
+					<div class="column ">
+						<p>
+				            <label for="modal_1" class="button">
+				                Show modal
+				            </label>
+				        </p>
+
+				        <div class="modal">
+				            <input id="modal_1" type="checkbox" />
+				            <label for="modal_1" class="overlay"></label>
+				            <article>
+				                <header>
+				                    <h3>CD Framework</h3>
+				                    <label for="modal_1" class="close">×</label>
+				                </header>
+				                <section class="content">
+				                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				                </section>
+				                <footer>
+				                    <a class="button" href="#">Button</a>
+				                    <label for="modal_1" class="button">
+				                        Cancel
+				                    </label>
+				                </footer>
+				            </article>
+				        </div>
+					</div>				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Grid</h2>
+				<div class="row row-wrap">
+					<div class="column ">
+						<div class="grid_demo">
+							column
+						</div>
+					</div>				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		
+		<div class="row row-wrap">
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+			<div class="column column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>	
+						
+		</div>
+		<div class="row ">
+			<div class="column column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>	
+			<div class="column column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>	
+			<div class="column column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>	
+			<div class="column column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>	
+			<div class="column column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>	
+						
+		</div>
+		<div class="row ">
+			<div class="column column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>	
+			<div class="column column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>	
+			<div class="column column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>	
+			<div class="column column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>	
+						
+		</div>
+		<div class="row ">
+			<div class="column column-33 ">
+				<div class="grid_demo">
+					column column-33 / column-34
+				</div>
+			</div>	
+			<div class="column  column-33 ">
+				<div class="grid_demo">
+					column column-33 / column-34
+				</div>
+			</div>		
+			<div class="column  column-33 ">
+				<div class="grid_demo">
+					column column-33 / column-34
+				</div>
+			</div>				
+		</div>
+		<div class="row ">
+			<div class="column column-50 ">
+				<div class="grid_demo">
+					column column-50
+				</div>
+			</div>	
+			<div class="column  column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>		
+			<div class="column  column-25 ">
+				<div class="grid_demo">
+					column column-25
+				</div>
+			</div>				
+		</div>
+		<div class="row ">
+			<div class="column column-60 ">
+				<div class="grid_demo">
+					column column-60
+				</div>
+			</div>	
+			<div class="column  column-40 ">
+				<div class="grid_demo">
+					column column-40
+				</div>
+			</div>		
+						
+		</div>
+
+		<div class="row ">
+			<div class="column column-75 ">
+				<div class="grid_demo">
+					column column-70
+				</div>
+			</div>	
+			<div class="column  column-25 ">
+				<div class="grid_demo">
+					column column-30
+				</div>
+			</div>		
+						
+		</div>
+
+		<div class="row ">
+			<div class="column column-80 ">
+				<div class="grid_demo">
+					column column-80
+				</div>
+			</div>	
+			<div class="column  column-20 ">
+				<div class="grid_demo">
+					column column-20
+				</div>
+			</div>		
+						
+		</div>
+
+		<div class="row ">
+			<div class="column column-90 ">
+				<div class="grid_demo">
+					column column-90
+				</div>
+			</div>	
+			<div class="column  column-10 ">
+				<div class="grid_demo">
+					column column-10
+				</div>
+			</div>		
+						
+		</div>
+
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Card</h2>								
+			</div>
+		</div>
+		<div class="row row-wrap">
+			<div class="column column-25">
+				<div class="card" >
+				  <img src="img/arch.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="button">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+			<div class="column column-25">
+				<div class="card" >				  
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="button  button-clear">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+			<div class="column column-25">
+				<div class="card light">
+				  <img src="img/arch.jpg" class="card-img-top" alt="...">
+				  <div class="card-img-overlay">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+				  </div>
+				</div>
+			</div>
+			<div class="column column-25">
+				<div class="card dark">
+				  <img src="img/arch.jpg" class="card-img-top" alt="...">
+				  <div class="card-img-overlay">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<br>
+				<h2>Progress Bar</h2>								
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				 <div class="meter">
+					<span style="width: 25%"></span>
+				</div>
+				<br />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<div class="meter orange nostripes">
+					<span style="width: 33.3%"></span>
+				</div>
+				<br />
+			</div>
+		</div>
+	</div>
+	
+    <div class="container">
+    	<div class="row">
+			<div class="column">
+				<br>
+				<h2>Breadcrumb</h2>								
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="column">
+    			 <ul class="breadcrumb">
+					  <li><a href="#">Home</a></li>
+					  <li><a href="#">Pictures</a></li>
+					  <li><a href="#">Summer 15</a></li>
+					  <li>Italy</li>
+				</ul> 
+    		</div>
+    	</div>
+    </div>	
+
+    <div class="container">
+    	<div class="row">
+			<div class="column">
+				<br>
+				<h2>Tooltip</h2>								
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="column">
+    			<button data-tooltip="This is a great tooltip" class="tooltip-top">
+				  Top
+				</button>
+				<button data-tooltip="This is a great tooltip">
+				  Bottom (default)
+				</button>
+				<button data-tooltip="This is a great tooltip" class="tooltip-left">
+				  Left
+				</button>
+				<button data-tooltip="This is a great tooltip" class="tooltip-right">
+				  Right
+				</button>
+
+    		</div>
+    	</div>
+    </div>		
+    <br />
+    <br />
+
+    <div class="container">
+    	<div class="row">
+			<div class="column">
+				<br>
+				<h2>Accordian</h2>								
+			</div>
+		</div>
+		<div class="row">
+			<div class="column column-50">
+				<p>Open <strong>multiple</strong></p>
+			    <div class="tab">
+			      <input id="tab-one" type="checkbox" name="tabs">
+			      <label for="tab-one">Label One</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			    <div class="tab">
+			      <input id="tab-two" type="checkbox" name="tabs">
+			      <label for="tab-two">Label Two</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			    <div class="tab">
+			      <input id="tab-three" type="checkbox" name="tabs">
+			      <label for="tab-three">Label Three</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			</div>
+
+			<div class="column column-50">
+				<p>Open <strong>one</strong></p>
+			    <div class="tab ">
+			      <input id="tab-four" type="radio" name="tabs2">
+			      <label for="tab-four">Label One</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			    <div class="tab ">
+			      <input id="tab-five" type="radio" name="tabs2">
+			      <label for="tab-five">Label Two</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			    <div class="tab ">
+			      <input id="tab-six" type="radio" name="tabs2">
+			      <label for="tab-six">Label Three</label>
+			      <div class="tab-content">
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>					
+	</div>
+	<br />
+	<br />
+	<br />
+
+</body>
+
+</html>
